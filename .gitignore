@@ -1,0 +1,45 @@
+# Built application files
+*.apk
+*.aar
+*.aab
+
+# Gradle files
+.gradle/
+build/
+app/build/
+**/build/
+
+# Local configuration file (contains Android SDK location)
+local.properties
+
+# Log files
+*.log
+
+# Android Studio and IntelliJ IDEA files
+.idea/
+*.iml
+.idea/modules.xml
+.idea/workspace.xml
+.idea/caches/
+.idea/libraries/
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# VS Code
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Keystore and signing keys (NEVER commit secrets or keys)
+*.jks
+*.keystore
+*.key
+signing.properties
+release-signing.properties
+
+# Native builds
+.externalNativeBuild/
+.cxx/
+captures/

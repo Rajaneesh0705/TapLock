@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-policies>
+        <!-- TapLock requests exclusively the Force Lock policy to lock the screen on demand -->
+        <force-lock />
+    </uses-policies>
+</device-admin>

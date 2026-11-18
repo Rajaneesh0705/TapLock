@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">TapLock</string>
+    <string name="app_tagline">Instant Screen Lock</string>
+    <string name="device_admin_description">TapLock requires Device Administrator authorization solely to use the Force Lock policy to turn off and lock your screen on demand.</string>
+    <string name="device_admin_explanation">TapLock requires Device Administrator privileges solely to lock your screen on demand using the Force lock policy.</string>
+
+    <!-- Setup Screen Strings -->
+    <string name="setup_required_title">Device Setup Required</string>
+    <string name="setup_required_subtitle">Before you can lock your screen from the home screen icon or widget, TapLock needs one-time Device Administrator activation.</string>
+    <string name="setup_active_title">TapLock is Ready</string>
+    <string name="setup_active_subtitle">Device Administrator permission is active. You can now lock your screen on demand.</string>
+
+    <string name="why_device_admin_title">Why Device Administrator?</string>
+    <string name="why_device_admin_body">Android protects system lock functions. TapLock uses Android\'s native Device Administration API with strictly the single \"Force lock\" policy. Unlike other screen lock apps, TapLock requires:</string>
+
+    <string name="badge_no_root">No Root Access</string>
+    <string name="badge_no_accessibility">No Accessibility Service</string>
+    <string name="badge_no_network">Zero Network Permissions</string>
+    <string name="badge_no_ads">No Ads or Analytics</string>
+
+    <string name="status_admin_active">Device Administrator: Active</string>
+    <string name="status_admin_inactive">Device Administrator: Inactive</string>
+
+    <!-- Actions -->
+    <string name="action_activate_admin">Activate Device Administrator</string>
+    <string name="action_lock_now">Lock screen now</string>
+    <string name="action_deactivate_admin">Deactivate Device Administrator</string>
+    <string name="action_pin_shortcut">Pin Lock Shortcut to Home Screen</string>
+
+    <!-- Deactivate Dialog -->
+    <string name="dialog_deactivate_title">Deactivate Device Administrator?</string>
+    <string name="dialog_deactivate_message">This will revoke TapLock\'s screen lock privilege. You will need to reactivate it before you can lock the screen again.\n\nNote: Android requires deactivating device administrator apps before they can be uninstalled.</string>
+    <string name="dialog_confirm">Deactivate</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_admin_enabled">TapLock: Screen lock permission enabled</string>
+    <string name="toast_admin_disabled">TapLock: Screen lock permission disabled</string>
+    <string name="shortcut_pinned_toast">Lock shortcut added to Home screen</string>
+    <string name="shortcut_not_supported_toast">Launcher does not support direct pinning. Long-press the TapLock app icon to drag the shortcut to your Home screen.</string>
+
+    <!-- Secure Screen Lock Info -->
+    <string name="secure_lock_title">Secure Screen Lock Recommended</string>
+    <string name="secure_lock_body">For your phone to require authentication (PIN, pattern, password, or biometrics) upon wake, ensure a secure lock screen is enabled in your phone\'s Settings > Lock screen.\n\nIf your phone is set to \"Swipe\" or \"None\", TapLock will turn off the screen, but it will not require authentication to reopen.</string>
+
+    <!-- Error Messages -->
+    <string name="error_permission_required">Device Administrator permission is not active. Please tap \"Activate Device Administrator\" first.</string>
+    <string name="error_security_exception">SecurityException: Unable to lock screen. Please ensure Device Administrator is active.</string>
+
+    <!-- Widget Strings -->
+    <string name="widget_name">TapLock 1×1</string>
+    <string name="widget_description">One-tap screen lock button for your Home screen.</string>
+    <string name="widget_label_active">Lock screen</string>
+    <string name="widget_label_inactive">Setup needed</string>
+
+    <!-- Shortcut Strings -->
+    <string name="shortcut_lock_short">Lock screen</string>
+    <string name="shortcut_lock_long">Lock phone screen immediately</string>
+
+    <!-- Home Screen Section -->
+    <string name="home_controls_title">Home Screen Controls</string>
+    <string name="home_controls_desc">Add a 1-tap lock control to your Samsung Home screen via Widget or App Shortcut.</string>
+</resources>
